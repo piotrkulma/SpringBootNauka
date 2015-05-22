@@ -1,4 +1,4 @@
-package spring.boot.nauka;
+package spring.boot.nauka.tasks;
 
 import org.springframework.scheduling.annotation.Scheduled;
 

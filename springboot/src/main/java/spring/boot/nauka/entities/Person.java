@@ -1,4 +1,4 @@
-package spring.boot.nauka;
+package spring.boot.nauka.entities;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
