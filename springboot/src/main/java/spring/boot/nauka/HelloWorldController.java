@@ -16,6 +16,7 @@ import java.util.Date;
 public class HelloWorldController {
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
     public String hello(ModelMap modelMap) {
+        System.out.println("/hello");
         modelMap.addAttribute("message", "OK");
         return "hello";
     }
